@@ -8,31 +8,7 @@ var xValues = ["Vertical Progress Bar"];
 var yValues = [percent];
 var barColors = ["#6e93f2"];
 var myChart = new Chart("barChart", {
-	// Axes display false
-// 	type: "horizontalBar",
-// 	data: {
-// 		labels: xValues,
-// 		datasets: [{
-// 			backgroundColor: barColors,
-// 			data: yValues
-// 		}]
-// 	},
-// 	options: {
-// 		legend: { display: false },
-// 		title: {
-// 			display: true,
-// 			text: "Vertical Progress Bar"
-// 		},
-// 		scales: {
-// 			xAxes: [{
-// 				display: false
-// 			}],
-// 			yAxes: [{
-// 				display: false
-// 			}]
-// 		}
-// 	}
-// });
+
   type: "bar",
   data: {
     labels: xValues,

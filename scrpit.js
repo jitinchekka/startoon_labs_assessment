@@ -53,7 +53,7 @@ var myChart = new Chart("barChart", {
           // Bar width
           barPercentage: 10,
           // drawticks
-			display: false,
+			display: false,	
         },
       ],
     },

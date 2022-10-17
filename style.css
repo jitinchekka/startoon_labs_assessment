@@ -6,7 +6,9 @@
   --color-4: #e4ebf5;
   --color-5: #fbf8f8;
 }
-
+body{
+  background-color: var(--color-5);
+}
 h1 {
   color: var(--color-primary);
   font-size: 2rem;

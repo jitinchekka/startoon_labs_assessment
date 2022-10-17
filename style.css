@@ -1,0 +1,27 @@
+/* Declare colours in root */
+:root {
+  --color-primary: #000;
+  --color-2: #d9d9d9;
+  --color-3: #6e93f2;
+  --color-4: #e4ebf5;
+  --color-5: #fbf8f8;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.form-group {
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"]{
+	background-color: var(--color-2);
+}
